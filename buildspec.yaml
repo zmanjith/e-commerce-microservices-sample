@@ -7,11 +7,9 @@ phases:
   pre_build:
     commands:
       - echo Installing dependencies...
-      - pip install -r requirements.txt
   build:
     commands:
       - echo Running build process...
-      - python build_script.py
   post_build:
     commands:
       - echo Build completed successfully!
